@@ -7,13 +7,13 @@ $(document).ready(function(){
     $(link1).mouseenter(function(){
         $(link1).width(175);
         $(link2).width(65);
-        $(link2).html("<br>Some");
+        $(link2).html("<br>Web");
     });
     
     $(link1).mouseleave(function(){
         $(link1).width(120);
         $(link2).width(120);
-        $(link2).html("<br>Something");
+        $(link2).html("<br>Website");
     });
     
     $(link1).click(function(){

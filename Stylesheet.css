@@ -68,6 +68,7 @@ body{
     color: black;
     float: left;
     margin-left: 10px;
+    cursor: pointer;
 }
 
 #centerstuff {
