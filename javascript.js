@@ -33,6 +33,6 @@ $(document).ready(function(){
         $(link1).html("<br>Our GitHub");
     });
     $(link2).click(function(){
-        window.open("http://marksomnian.com/echode/Index.html");
+        window.open("mrkireko.github.io/EchodeSite/");
     });
 });
