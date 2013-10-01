@@ -33,6 +33,6 @@ $(document).ready(function(){
         $(link1).html("<br>Our GitHub");
     });
     $(link2).click(function(){
-        window.open("mrkireko.github.io/EchodeSite/");
+        window.open("http://mrkireko.github.io/EchodeSite/");
     });
 });
