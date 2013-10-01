@@ -24,6 +24,7 @@ $(document).ready(function(){
     $(link2).mouseenter(function(){
         $(link2).width(170);
         $(link1).width(65);
+        $(link2).css("margin-left", "40px;");
         $(link1).html("<br>GitHub");
     });
     

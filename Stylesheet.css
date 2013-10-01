@@ -40,9 +40,10 @@ body{
 
 #link1 {
     background-color: green;
-    border-left: solid;
+    /*border-left: solid;
     border-width: 40px;
-    border-color: rgb(0, 254, 254);
+    border-color: rgb(0, 254, 254);*/
+    margin-left: 40px;
     text-decoration: none;
     height: 65px;
     width: 120px;
@@ -56,9 +57,10 @@ body{
 
 #link2 {
     background-color: yellow;
-    border-right: solid;
+    /*border-right: solid;
     border-width: 40px;
-    border-color: rgb(0, 254, 254);
+    border-color: rgb(0, 254, 254);*/
+    /*margin-right: 40px;*/
     text-decoration: none;
     height: 65px;
     width: 120px;
@@ -68,7 +70,6 @@ body{
     color: black;
     float: left;
     margin-left: 10px;
-    cursor: pointer;
     cursor: pointer;
 }
 
