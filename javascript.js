@@ -1,6 +1,6 @@
-if (navigator.userAgent.indexOf('Mobile') != -1) { /*checking if user uses a non-desktop browser*/
+if ((navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf('Android') != -1 && navigator.userAgent.indexOf('mobile') == -1)) { /*checking if user uses a non-desktop browser*/
     document.location = "/EchodeSite/mobile/";
-}else if ((navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf('Android') != -1)) {
+}else if ((navigator.userAgent.indexOf('mobile') != -1)) {
     document.location = "http://www.yahoo.com/";
 }
 
