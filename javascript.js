@@ -1,5 +1,6 @@
-//checking if user uses iPhone/iTouch
-if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)){
+//checking if user uses mobile
+
+if (navigator.userAgent.indexOf('Mobile') != -1) {
     document.location = "/EchodeSite/mobile/";
 }
 
