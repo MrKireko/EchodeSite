@@ -1,6 +1,6 @@
 //checking if user uses iPhone/iTouch
 if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)){
-    document.location = "http://www.google.com/";
+    document.location = "/mobile/";
 }
 
 //checking if user uses iPad
