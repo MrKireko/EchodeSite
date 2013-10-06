@@ -35,4 +35,10 @@ $(document).ready(function(){
     $(text2).click(function(){
         window.open("http://marksomnian.com/echode/Index.html");
     });
+	    $('.flip').mouseenter(function(){
+        $(this).find('.card').addClass('flipped').mouseleave(function(){
+            $(this).removeClass('flipped');
+        });
+        return false;
+    });
 });
