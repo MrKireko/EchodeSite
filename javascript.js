@@ -1,6 +1,11 @@
-//checking if the user is on iPhone or iPod
-if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1))/* || (navigator.userAgent.indexOf('iPad') != -1))*/{
-    document.location = "http://www.google.com/"
+//checking if user uses iPhone/iTouch
+if ((navigator.userAgent.indexOf('iPhone') != -1) || (navigator.userAgent.indexOf('iPod') != -1)){
+    document.location = "http://www.google.com/";
+}
+
+//checking if user uses iPad
+if ((navigator.userAgent.indexOf('iPad') != -1)) {
+    document.location = "http://www.yahoo.com/";
 }
 
 $(document).ready(function(){
