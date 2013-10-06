@@ -42,7 +42,8 @@ $(document).ready(function(){
     $(link2).click(function(){
         window.open("http://mrkireko.github.io/EchodeSite/");
     });
-	    $('.flip').mouseenter(function () {
+    
+    $('.flip').mouseenter(function () {
         $(this).find('.card').addClass('flipped').mouseleave(function () {
             $(this).removeClass('flipped');
         });
