@@ -1,9 +1,3 @@
-if ((navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf('Android') != -1 && navigator.userAgent.indexOf('Mobile') == -1)) { /*checking if user uses a non-desktop browser*/
-    document.location = "http://www.yahoo.com/";
-}else if ((navigator.userAgent.indexOf('Mobile') != -1)) {
-    document.location = "/EchodeSite/mobile/";
-}
-
 $(document).ready(function(){
     
     var link1 = '#link1';
