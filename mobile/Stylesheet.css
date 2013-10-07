@@ -1,5 +1,5 @@
-body{
-    background-color: rgb(121, 121, 121);
+body {
+    background: #CCCCCC;
 }
 
 #head {
@@ -13,106 +13,11 @@ body{
     font-family: sans-serif;
     position: fixed;
     font-weight: 100;
-}
-
-#desc{
-    float: right;
-    background-color: rgb(255, 145, 50);
-    color: #666666;
-    border: solid;
-    border-color: black;
-    width: 40%;
-    height: 200px;
-    font-family: sans-serif;
-    font-weight: lighter;
-    font-size: 40px;
-    margin: 10px;
-}
-
-#text p{
-    border: solid;
-    border-width: 10px;
-    border-color: rgb(255, 145, 50);
-}
-
-#link1 {
-    background-color: green;
-    /*border-left: solid;
-    border-width: 40px;
-    border-color: rgb(0, 254, 254);*/
-    margin-left: 40px;
-    text-decoration: none;
-    height: 65px;
-    width: 120px;
-    vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    float: left;
-    cursor: pointer;
-}
-
-#link2 {
-    background-color: yellow;
-    /*border-right: solid;
-    border-width: 40px;
-    border-color: rgb(0, 254, 254);*/
-    /*margin-right: 40px;*/
-    text-decoration: none;
-    height: 65px;
-    width: 120px;
-    vertical-align: middle;
-    text-align: center;
-    text-decoration: none;
-    color: black;
-    float: left;
-    margin-left: 10px;
-    cursor: pointer;
-}
-
-#centerstuff {
-    width: 90%;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 30px;
-}
-
-#dl {
-    background-color: rgb(0, 254, 254);
-    width: 100%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    vertical-align: middle;
-    border-top: solid;
-    border-bottom: solid;
-    border-color: #000000;
-}
-
-#footer {
-    background-color: rgb(39, 39, 39);
-    color: rgb(55, 55, 55);
-    bottom: 0px;
-    position: fixed;
-    width: 100%;
-    border-top: solid #000000 2px;
-    font-family: sans-serif;
-    line-height: 25px;
-    text-indent: 10px;
-}
-
-#text {
-    vertical-align: middle;
+    padding-top: 15px;
+    padding-bottom: 15px;
 }
 
 /* reset blank things and stuff*/
-
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
