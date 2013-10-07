@@ -8,13 +8,14 @@ body {
     border-bottom: solid;
     border-color: black;
     width: 100%;
+    height: 50px;
     text-align: center;
-    font-size: 40px;
+    font-size: 80px;
     font-family: sans-serif;
     position: fixed;
     font-weight: 100;
-    padding-top: 15px;
-    padding-bottom: 15px;
+    padding-top: 34px;
+    padding-bottom: 51px;
 }
 
 /* reset blank things and stuff*/
