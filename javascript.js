@@ -13,13 +13,13 @@ $(document).ready(function(){
     $(link1).mouseenter(function(){
         $(link1).width(175);
         $(link2).width(65);
-        $(link2).html("<br>Web");
+        $(link2).html("<br>Our");
     });
     
     $(link1).mouseleave(function(){
         $(link1).width(120);
         $(link2).width(120);
-        $(link2).html("<br>Website");
+        $(link2).html("<br>Our Twitter");
     });
     
     $(link1).click(function(){
@@ -40,7 +40,7 @@ $(document).ready(function(){
         $(link1).html("<br>Our GitHub");
     });
     $(link2).click(function(){
-        window.open("http://mrkireko.github.io/EchodeSite/");
+        window.open("http://www.twitter.com/EchodeOfficial");
     });
     
     $('.flip').mouseenter(function () {
