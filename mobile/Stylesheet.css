@@ -15,11 +15,11 @@ img {
     width: 100%;
     text-align: center;
     height: 50px;
-    font-size: 100px;
+    font-size: 9em;
     font-family: sans-serif;
     position: fixed;
     font-weight: 100;
-    padding-top: 34px;
+    padding-top: 17px;
     padding-bottom: 68px;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
