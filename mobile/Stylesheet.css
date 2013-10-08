@@ -18,6 +18,17 @@ body {
     padding-bottom: 51px;
 }
 
+#desc {
+    background-color: rgb(255, 145, 50);
+    color: #666666;
+    border: solid;
+    border-color: black;
+    border-width: 2px;
+    border-left: none;
+    border-right: none;
+    font-size: 20px;
+}
+
 /* reset blank things and stuff*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
