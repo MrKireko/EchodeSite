@@ -4,6 +4,7 @@ body {
 
 img {
     height: 100px;
+    
 }
 
 #head {
@@ -12,13 +13,16 @@ img {
     border-bottom: solid;
     border-color: black;
     width: 100%;
+    text-align: center;
     height: 50px;
-    /*font-size: 5em;
-    font-family: sans-serif;*/
+    font-size: 5em;
+    font-family: sans-serif;
     position: fixed;
     font-weight: 100;
-    padding-top: 17px;
-    padding-bottom: 68px;
+    padding-top: 34px;
+    padding-bottom: 51px;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 #desc {
@@ -30,6 +34,8 @@ img {
     border-left: none;
     border-right: none;
     font-size: 2em;
+    -moz-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
 }
 
 /* reset blank things and stuff*/
