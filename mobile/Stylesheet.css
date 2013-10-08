@@ -2,6 +2,10 @@ body {
     background: #CCCCCC;
 }
 
+img {
+    height: 100px;
+}
+
 #head {
     background-color: rgb(66, 66, 66);
     color: darkblue;
@@ -13,8 +17,8 @@ body {
     font-family: sans-serif;*/
     position: fixed;
     font-weight: 100;
-    padding-top: 34px;
-    padding-bottom: 51px;
+    padding-top: 17px;
+    padding-bottom: 68px;
 }
 
 #desc {
