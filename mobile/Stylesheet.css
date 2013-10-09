@@ -14,7 +14,7 @@ img {
     border-color: black;
     width: 100%;
     text-align: center;
-    height: 50px;
+    height: 55px;
     font-size: 9em;
     font-family: sans-serif;
     position: fixed;
@@ -54,11 +54,16 @@ img {
 
 #link1{
     background-color: green;
-    text-decoration: none;
-    color: black;
     font-weight: 100;
     padding: 5px;
     border: solid;
+    border-width: 2px;
+    width: 250px;
+}
+
+#link1 a {
+    text-decoration: none;
+    color: black;
 }
 
 /* reset blank things and stuff*/
