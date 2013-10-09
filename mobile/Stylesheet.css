@@ -39,6 +39,19 @@ img {
     -webkit-text-size-adjust: 100%;
 }
 
+#links{
+    background-color: yellow;
+    color: black;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    font-size: 3em;
+    font-family: sans-serif;
+    padding: 5px;
+    -webkit-text-adjust: 100%;
+    -moz-text-adjust: 100%;
+}
+
 /* reset blank things and stuff*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
