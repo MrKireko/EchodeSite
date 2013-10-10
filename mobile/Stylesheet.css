@@ -61,7 +61,7 @@ img {
     padding-bottom: 15px;
     border: solid;
     border-width: 2px;
-    width: 400px;
+    width: 48%;
     float: left;
     text-align: center;
 }
@@ -75,7 +75,7 @@ img {
     padding-bottom: 15px;
     border: solid;
     border-width: 2px;
-    width: 400px;
+    width: 48%;
     float: right;
     text-align: center;
 }
