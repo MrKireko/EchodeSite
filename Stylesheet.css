@@ -176,7 +176,7 @@ body {
     vertical-align: middle;
 }
 
-#about1 {
+#aboutcont {
     float: left;
     position: absolute;
     background-color: red;
@@ -185,6 +185,10 @@ body {
     padding-top: 20px;
     padding-bottom: 20px;
     width: 1210px;
+}
+
+#about1 {
+    cursor: pointer;
 }
 
 /* reset blank things and stuff*/

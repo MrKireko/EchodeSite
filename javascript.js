@@ -64,6 +64,14 @@ $(document).ready(function(){
         }
     });
     
+    var about1 = $("#about1");
+    
+    //about1
+    about1.click(function(){
+        document.location = "team.html";
+    });
+    
+    //logo flip
     $('.flip').mouseenter(function () {
         $(this).find('.card').addClass('flipped').mouseleave(function () {
             $(this).removeClass('flipped');
