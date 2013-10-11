@@ -8,18 +8,15 @@ $(document).ready(function(){
     
     var link1 = '#link1';
     var link2 = '#link2';
+    var link3 = '#link3';
     
     /*link1*/
     $(link1).mouseenter(function(){
-        $(link1).width(175);
-        $(link2).width(65);
-        $(link2).html("<br>Our");
+        $(link1).height(85);
     });
     
     $(link1).mouseleave(function(){
-        $(link1).width(120);
-        $(link2).width(120);
-        $(link2).html("<br>Our Twitter");
+        $(link1).height(65);
     });
     
     $(link1).click(function(){
@@ -28,19 +25,43 @@ $(document).ready(function(){
     
     /*link2*/
     $(link2).mouseenter(function(){
-        $(link2).width(170);
-        $(link1).width(65);
-        $(link2).css("margin-left", "40px;");
-        $(link1).html("<br>GitHub");
+        $(link2).height(85);
     });
     
     $(link2).mouseleave(function(){
-        $(link2).width(120);
-        $(link1).width(120);
-        $(link1).html("<br>Our GitHub");
+        $(link2).height(65);
     });
+    
     $(link2).click(function(){
         window.open("http://www.twitter.com/EchodeOfficial");
+    });
+    
+    /*link3*/
+    $(link3).mouseenter(function(){
+        $(link3).height(85);
+    });
+    
+    $(link3).mouseleave(function(){
+        var display = $('#aboutcont').css('display');
+        if (display == "none") {
+            $(link3).height(65);
+        }
+    });
+    
+    $(link3).click(function(){
+        var display = $('#aboutcont').css('display');
+        if (display == "none") {
+            $("#aboutcont").css("display", "block");
+            console.log(display);
+            $("#dl").height(180);
+            $(link3).height(85);
+            scrollTo(100,50000000);
+        }else{
+            $("#aboutcont").css("display", "none");
+            console.log(display);
+            $(link3).height(65);
+            $("#dl").height(110);
+        }
     });
     
     $('.flip').mouseenter(function () {
