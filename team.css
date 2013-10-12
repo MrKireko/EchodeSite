@@ -2,6 +2,23 @@ body {
     background-color: #bbb;
 }
 
+#about {
+    background-color: #ccc;
+    font-size: 20px;
+    padding: 10px;
+    width: 95%;
+    margin-left: 1.5%;
+    text-align: center;
+}
+
+#am {
+    float: left;
+}
+
+#ab {
+    float: right;
+}
+
 #header {
     background-color: rgb(66, 66, 66);
     color: darkblue;
@@ -13,11 +30,12 @@ body {
     padding-top: 10px;
     padding-bottom: 5px;
     cursor: pointer;
+    position: fixed;
 }
 
 #title {
     font-family: sans-serif;
-    padding-top: 40px;
+    padding-top: 80px;
     text-align: center;
     font-size: 50px;
     color: #444;
@@ -25,13 +43,16 @@ body {
 }
 
 #erik {
-    height: 430px;
+    /*height: 430px;*/
+    height: auto;
     width: 280px;
     background-color: #ccc;
     display: inline-block;
     padding: 20px;
-    margin-left: 10%;
     margin-top: 30px;
+    display: none;
+    float: left;
+    margin-left:30em;
 }
 
 #erh {
@@ -66,23 +87,31 @@ body {
 }
 
 #marks {
-    float: left;
-    height: 430px;
+    /*float: left;*/
+    /*height: 430px;*/
+    height: auto;
     width: 280px;
     background-color: #ccc;
     display: inline-block;
     padding: 20px;
-    margin-left: 30px;
+    margin-top: 30px;
+    display: none;
+    margin-left:30em;
+    float: left;
 }
 
 #bas {
-    float: right;
-    height: 430px;
+    /*float: right;*/
+    /*height: 430px;*/
+    height: auto;
     width: 280px;
     background-color: #ccc;
     display: inline-block;
     padding: 20px;
-    margin-right: 30px;
+    margin-top: 30px;
+    display: none;
+    margin-left:30em;
+    float: left;
 }
 
 #erd p:first-letter, #mad p:first-letter, #bad p:first-letter {
