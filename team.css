@@ -25,13 +25,13 @@ body {
 }
 
 #erik {
-    margin-top: 30px;
     height: 430px;
     width: 280px;
     background-color: #ccc;
     display: inline-block;
     padding: 20px;
-    margin-left: 10.2%;
+    margin-left: 10%;
+    margin-top: 30px;
 }
 
 #erh {
