@@ -16,6 +16,8 @@ $(document).ready(function(){
     ae.click(function(){
         if (erik.css("display") == "none") {
             erik.css("display", "inline-block");
+            bas.css("display", "none");
+            marks.css("display", "none");
         }else{
             erik.css("display", "none");
         }
@@ -24,6 +26,8 @@ $(document).ready(function(){
     ab.click(function(){
         if (bas.css("display") == "none") {
             bas.css("display", "inline-block");
+            erik.css("display", "none");
+            marks.css("display", "none");
         }else{
             bas.css("display", "none");
         }
@@ -32,6 +36,8 @@ $(document).ready(function(){
     am.click(function(){
         if (marks.css("display") == "none") {
             marks.css("display", "inline-block");
+            erik.css("display", "none");
+            bas.css("display", "none");
         }else{
             marks.css("display", "none");
         }
