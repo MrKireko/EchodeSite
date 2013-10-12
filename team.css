@@ -43,31 +43,25 @@ body {
 }
 
 #erik {
-    /*height: 430px;*/
     height: auto;
-    width: 280px;
+    width: 100%;
     background-color: #ccc;
-    display: inline-block;
     padding: 20px;
     margin-top: 30px;
     display: none;
-    float: left;
-    margin-left:30em;
+    padding-left: 18em;
 }
 
 #erh {
     font-size: 50px;
-    text-align: center;
-}
-
-#mah {
-    font-size: 40px;
-    text-align: center;
 }
 
 #bah {
-    font-size: 38px;
-    text-align: center;
+    font-size: 50px;
+}
+
+#mah {
+    font-size: 50px;
 }
 
 #erj, #maj, #baj {
@@ -87,31 +81,23 @@ body {
 }
 
 #marks {
-    /*float: left;*/
-    /*height: 430px;*/
     height: auto;
-    width: 280px;
+    width: 100%;
     background-color: #ccc;
-    display: inline-block;
     padding: 20px;
     margin-top: 30px;
     display: none;
-    margin-left:30em;
-    float: left;
+    padding-left: 18em;
 }
 
 #bas {
-    /*float: right;*/
-    /*height: 430px;*/
     height: auto;
-    width: 280px;
+    width: 100%;
     background-color: #ccc;
-    display: inline-block;
     padding: 20px;
     margin-top: 30px;
     display: none;
-    margin-left:30em;
-    float: left;
+    padding-left: 18em;
 }
 
 #erd p:first-letter, #mad p:first-letter, #bad p:first-letter {

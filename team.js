@@ -15,7 +15,7 @@ $(document).ready(function(){
     
     ae.click(function(){
         if (erik.css("display") == "none") {
-            erik.css("display", "inline-block");
+            erik.css("display", "-moz-box");
             bas.css("display", "none");
             marks.css("display", "none");
         }else{
