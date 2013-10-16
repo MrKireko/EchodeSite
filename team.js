@@ -10,12 +10,12 @@ $(document).ready(function(){
     
     
     header.click(function(){
-        document.location = "Index.html";
+        document.location = "index.html";
     });
     
     ae.click(function(){
         if (erik.css("display") == "none") {
-            erik.css("display", "-moz-box");
+            erik.css("display", "inline-block");
             bas.css("display", "none");
             marks.css("display", "none");
         }else{
