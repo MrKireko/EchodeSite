@@ -16,13 +16,16 @@ img {
     text-align: center;
     height: 55px;
     font-size: 9em;
-    font-family: sans-serif;
+    font-family: Helvetica Neue;
     position: fixed;
     font-weight: 100;
-    padding-top: 9px;
-    padding-bottom: 85px;
+    padding-bottom: 94px;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
+}
+
+#ht {
+    margin-top: -10px;
 }
 
 #desc {
@@ -33,8 +36,10 @@ img {
     border-width: 2px;
     border-left: none;
     border-right: none;
-    font-size: 4em;
-    font-family: sans-serif;
+    padding-left: 5px;
+    font-size: 3.5em;
+    font-weight: 100;
+    font-family: Helvetica Neue;
     -moz-text-size-adjust: 100%;
     -webkit-text-size-adjust: 100%;
 }
@@ -46,8 +51,9 @@ img {
     border-bottom: solid;
     border-width: 2px;
     font-size: 3em;
-    font-family: sans-serif;
+    font-family: Helvetica Neue;
     padding: 5px;
+    font-weight: 100;
     -webkit-text-adjust: 100%;
     -moz-text-adjust: 100%;
 }
@@ -61,7 +67,7 @@ img {
     padding-bottom: 15px;
     border: solid;
     border-width: 2px;
-    width: 48.5%;
+    width: 32%;
     float: left;
     text-align: center;
 }
@@ -75,14 +81,44 @@ img {
     padding-bottom: 15px;
     border: solid;
     border-width: 2px;
-    width: 48.5%;
+    width: 32%;
     float: right;
     text-align: center;
 }
 
-#link1 a, #link2 a {
+#link3{
+    margin-left: 0.1em;
+    background-color: rgb(255, 0, 0);
+    font-weight: 100;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    border: solid;
+    border-width: 2px;
+    width: 32%;
+    float: left;
+    text-align: center;
+}
+
+#link1 a, #link2 a, #about a {
     text-decoration: none;
     color: black;
+}
+
+#about{
+    display: none;
+    background-color: red;
+    color: black;
+    border-top: solid;
+    border-bottom: solid;
+    border-width: 2px;
+    font-size: 3em;
+    font-weight: 100;
+    font-family: Helvetica Neue;
+    padding: 5px;
+    -webkit-text-adjust: 100%;
+    -moz-text-adjust: 100%;
 }
 
 /* reset blank things and stuff*/

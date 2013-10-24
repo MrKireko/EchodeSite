@@ -7,7 +7,9 @@ $(document).ready(function(){
     var ae = $("#ae");
     var ab = $("#ab");
     var am = $("#am");
+    var ww = $(window).width();
     
+    bas.width($(document).width());
     
     header.click(function(){
         document.location = "index.html";
@@ -25,6 +27,7 @@ $(document).ready(function(){
     
     ab.click(function(){
         if (bas.css("display") == "none") {
+            bas.css("width", ww);
             bas.css("display", "inline-block");
             erik.css("display", "none");
             marks.css("display", "none");
@@ -43,25 +46,25 @@ $(document).ready(function(){
         }
     });
     
-    //erik.mouseenter(function(){
-    //    $(this).css("background-color", "#ddd");
-    //});
-    //erik.mouseleave(function(){
-    //    $(this).css("background-color", "#ccc");
-    //});
-    //
-    //bas.mouseenter(function(){
-    //    $(this).css("background-color", "#ddd");
-    //});
-    //bas.mouseleave(function(){
-    //    $(this).css("background-color", "#ccc");
-    //});
-    //
-    //marks.mouseenter(function(){
-    //    $(this).css("background-color", "#ddd");
-    //});
-    //marks.mouseleave(function(){
-    //    $(this).css("background-color", "#ccc");
-    //});
+    erik.mouseenter(function(){
+        $(this).css("background-color", "#d0d0d0");
+    });
+    erik.mouseleave(function(){
+        $(this).css("background-color", "#ccc");
+    });
+    
+    bas.mouseenter(function(){
+        $(this).css("background-color", "#d0d0d0");
+    });
+    bas.mouseleave(function(){
+        $(this).css("background-color", "#ccc");
+    });
+    
+    marks.mouseenter(function(){
+        $(this).css("background-color", "#d0d0d0");
+    });
+    marks.mouseleave(function(){
+        $(this).css("background-color", "#ccc");
+    });
     
 });

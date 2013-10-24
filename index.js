@@ -1,0 +1,1 @@
+document.location = "desktop/index.html";
