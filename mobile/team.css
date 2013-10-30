@@ -24,6 +24,14 @@ body {
     margin-top: -10px;
 }
 
+#marks {
+
+background-color: #ccc;
+width: 100%;
+height: auto;
+
+}
+
 * {
     margin: 0px;
     padding: 0px;
