@@ -9,6 +9,7 @@ $(document).ready(function(){
     var link1 = '#link1';
     var link2 = '#link2';
     var link3 = '#link3';
+    var link4 = '#link4';
     
     /*link1*/
     $(link1).mouseenter(function(){
@@ -62,6 +63,17 @@ $(document).ready(function(){
             $(link3).height(65);
             $("#dl").height(110);
         }
+    });
+    $(link4).mouseenter(function(){
+        $(link4).height(85);
+    });
+    
+    $(link4).mouseleave(function(){
+        $(link4).height(65);
+    });
+    
+    $(link4).click(function(){
+        window.open("http://84.145.53.2:8080/jenkins/job/echode/");
     });
     
     var about1 = $("#about1");
