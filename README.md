@@ -6,7 +6,5 @@ It is still in development, there isn't any download yet. But if you feel advent
 
 Echode itself is made in Java. (Don't worry if you don't know what that is)
 
-<a href="http://mrkireko.github.io/EchodeSite/" style="
-color: #000030;
-">Go to our website!</a>
+[Go to our website!](http://mrkireko.github.io/EchodeSite/)
 
