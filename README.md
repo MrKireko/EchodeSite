@@ -6,5 +6,5 @@ It is still in development, there isn't any download yet. But if you feel advent
 
 Echode itself is made in Java. (Don't worry if you don't know what that is)
 
-ttp://mrkireko.github.io/EchodeSite/
+<a href="http://mrkireko.github.io/EchodeSite/">Go to our website!</a>
 
