@@ -73,7 +73,7 @@ $(document).ready(function(){
     });
     
     $(link4).click(function(){
-        window.open("http://84.145.53.2:8080/jenkins/job/echode/");
+        window.open("http://marksomnian.com:8080/jenkins/");
     });
     
     var about1 = $("#about1");
