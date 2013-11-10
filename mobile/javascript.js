@@ -1,10 +1,4 @@
 $(document).ready(function(){
-    //$(".link").click(function(){
-    //    $(this).html("<p>Bob</p>").click(function(){
-    //        $(this).html("<p>LINKS</p>");
-    //    });
-    //    return false;
-    //});
     
     function ol() {
         var html1 = $("#links").html();
@@ -44,10 +38,4 @@ $(document).ready(function(){
         ol();
     });
     
-    
-    /*$("#head").mouseenter(function(){
-        $("#link").html("<p>Bob</p>").click(function(){
-            $("#link").html("<p>LINKS</p>");
-        });
-    });*/
 });

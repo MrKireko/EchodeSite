@@ -6,6 +6,10 @@ if ((navigator.userAgent.indexOf('iPad') != -1) || (navigator.userAgent.indexOf(
 
 $(document).ready(function(){
     
+    var logoheight = $(".flip").height()
+    
+    $("#logobr").css("font-size", logoheight/8)
+    
     var link1 = '#link1';
     var link2 = '#link2';
     var link3 = '#link3';
@@ -55,6 +59,7 @@ $(document).ready(function(){
             $("#aboutcont").css("display", "block");
             console.log(display);
             $("#dl").height(180);
+            $("#dl").css("padding-bottom", "20px");
             $(link3).height(85);
             scrollTo(100,50000000);
         }else{
@@ -62,6 +67,7 @@ $(document).ready(function(){
             console.log(display);
             $(link3).height(65);
             $("#dl").height(110);
+            $("#dl").css("padding-bottom", "0px");
         }
     });
     $(link4).mouseenter(function(){
