@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(181, 181, 181);
+}
+
+#menubar {
+    background-color: rgb(141, 141, 141);
+    height: 60px;
+}
+
+#titletext {
+    color: blue;
+    font-family: Helvetica Neue;
+    font-weight: lighter;
+    font-size: 50px;
+    text-align: center;
+}
+
+#button {
+    padding-left: 6px;
+    padding-top: 1px;
+    float:left;
+    cursor: pointer;
+}
+
+/*no margin or padding svp*/
+* {
+    margin: 0px;
+    padding: 0px;
+}
