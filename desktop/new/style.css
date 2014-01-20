@@ -2,11 +2,6 @@ body {
     background-color: rgb(181, 181, 181);
 }
 
-#menubar {
-    background-color: rgb(141, 141, 141);
-    height: 60px;
-}
-
 #titletext {
     color: blue;
     font-family: Helvetica Neue;
@@ -17,9 +12,25 @@ body {
 
 #button {
     padding-left: 6px;
-    padding-top: 1px;
+    padding-top: 2px;
     float:left;
     cursor: pointer;
+}
+
+#sidebar {
+    display:table-cell;
+	width:200px;
+	background-color:#555;
+}
+
+#menubar {
+    display:table-cell;
+    width: 100%;
+	background-color:#8d8d8d;
+}
+
+#menubar img {
+    display: inline-block;
 }
 
 /*no margin or padding svp*/
