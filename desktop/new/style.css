@@ -18,8 +18,8 @@ body {
 }
 
 #sidebar {
-    display:table-cell;
-	width:200px;
+    display:none;
+	height:150px;
 	background-color:#555;
 }
 

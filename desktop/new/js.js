@@ -1,20 +1,25 @@
 $(document).ready(function(){
-
-    console.log("SITE LOADED");
-    var menuopen = false;
+    
+    var menuOpen = false;
     
     $("#menubar").css("width", $(document).width());
-    
-    $("#button").click(function(){
-        if(menuopen == false){
-            $("#menubar").css("width", $(document).width()-200);
-            $("#sidebar").css("display", "table-cell");
-            menuopen = true;
+    $('#button').click(function() {
+        $("#sidebar").slideToggle('slow');
+        
+        /*if(menuOpen == false){
+            $("#sidebar").slideDown('slow');
+            menuOpen = true;
         }else{
-            $("#menubar").css("width", $(document).width());
-            $("#sidebar").css("display", "none");
-            menuopen = false;
-        }
+            menuOpen = false;
+        }*/
+        
+        console.log("toggled");
     });
+    
+    /*console.log("SITE LOADED");
+    var menuopen = false;
+    $("#button").click(function(){
+        $("#sidebar").slideToggle('slow');
+    });*/
 
 })
