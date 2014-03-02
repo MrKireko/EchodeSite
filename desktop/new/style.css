@@ -18,19 +18,49 @@ body {
 }
 
 #sidebar {
-    display:table-cell;
-	width:200px;
+    display:none;
+	height:150px;
 	background-color:#555;
+}
+
+#s1 {
+    background-color: #343434;
+    margin-left: 20px;
+    width: 250px;
+    height: 30px;
+    padding-top: 10px;
+    text-align: center;
+    border-radius: 13px;
+    cursor: pointer;    
+    font-size: 20px;
+    font-family: Helvetica Neue;
+    font-weight: 200;
+    color: #191919;
+    box-shadow: 1px 1px 6px 0px #000 inset;
 }
 
 #menubar {
     display:table-cell;
     width: 100%;
 	background-color:#8d8d8d;
+    box-shadow: 0px 1px 6px 0px #000;
 }
 
 #menubar img {
     display: inline-block;
+    float: left;
+}
+
+#credits {
+    background-color: rgb(39, 39, 39);
+    color: rgb(55, 55, 55);
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    border-top: solid #000000 2px;
+    font-family: Helvetica Neue;
+    line-height: 25px;
+    text-indent: 10px;
 }
 
 /*no margin or padding svp*/

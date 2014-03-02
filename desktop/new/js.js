@@ -1,20 +1,16 @@
 $(document).ready(function(){
-
-    console.log("SITE LOADED");
-    var menuopen = false;
+    
+    var menuOpen = false;
     
     $("#menubar").css("width", $(document).width());
     
-    $("#button").click(function(){
-        if(menuopen == false){
-            $("#menubar").css("width", $(document).width()-200);
-            $("#sidebar").css("display", "table-cell");
-            menuopen = true;
-        }else{
-            $("#menubar").css("width", $(document).width());
-            $("#sidebar").css("display", "none");
-            menuopen = false;
-        }
+    $('#button').click(function() {
+        $("#sidebar").slideToggle(200);
+        console.log("toggled");
+    });
+    
+    $("#s1").click(function(){
+        document.location = "index.html"
     });
 
 })
