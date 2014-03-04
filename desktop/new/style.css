@@ -2,6 +2,14 @@ body {
     background-color: rgb(181, 181, 181);
 }
 
+#intro {
+    font-family: Helvetica Neue;
+    font-weight: 100;
+    font-size: 20px;
+    text-align: justify;
+    padding: 10px 50px 0px 50px;
+}
+
 #titletext {
     color: blue;
     font-family: Helvetica Neue;
