@@ -12,5 +12,13 @@ $(document).ready(function(){
     $("#s1").click(function(){
         document.location = "index.html"
     });
+    
+    $("#titletext").mouseenter(function() {
+        $("#motto").slideDown(200);
+    });
+    
+    $("#titletext").mouseleave(function() {
+        $("#motto").slideUp(200);
+    });
 
 })
